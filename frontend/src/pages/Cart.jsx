@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { removeFromCart, addToCart } from '../redux/cartSlice';
 import '../styles/cart.css';
+import API from "../api";
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
