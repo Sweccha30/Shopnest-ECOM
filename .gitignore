@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules
+
+# Uploaded files
+backend/uploads/
+
+# Windows files
+desktop.ini
+Thumbs.db
+
+# Logs
+*.log
+
+# Build folders
+build
+dist
